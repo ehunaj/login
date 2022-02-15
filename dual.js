@@ -33,7 +33,7 @@ function setTHttpClient(options) {
 setTHttpClient(options={
     protocol: thrift.TCompactProtocol,
     transport: thrift.TBufferedTransport,
-    headers: {'User-Agent':'Line/5.12.3','X-Line-Application':"DESKTOPWIN\t6.0.3\tDESKTOPWIN\t10.0",'X-Line-Access':token},
+    headers: {'User-Agent':'Line/2.14.0','X-Line-Application':"ANDROIDLITE\t2.14.0\tAndroid OS\t5.1.1",'X-Line-Access':token},
     path: '/S4',
     https: true
     });
